@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+#body-header{
+    height: 68vh;
+    background-image: url(reslapimg.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.85;
+    background-attachment: fixed
+    }
+    .horizontal-list{
+        list-style: none;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    .horizontal-list li{
+        display: inline-block;
+        margin: 30px 10px 10px 10px;
+        font-size: 25px;
+    }
+    .horizontal-list li a{
+        color: white;
+        text-decoration: none;    }
+        .text-center{
+            text-align: center;
+            transition: color 0.7s, border-bottom 5s;
+        }
+        .horizontal-list li a:hover{
+            color: rgb(58, 150, 224);
+            border-bottom: cornsilk 1px;
+        } 
+        #name-social-container{
+            margin-top: 10vh;
+            text-align: center;
+        }
+        #my-name{
+            font-size: 4rem;
+            letter-spacing: 0.4rem;
+            color: white;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+          }
+          .fa:hover {
+            opacity: 0.7;
+          }
+          #about{
+              height: auto;
+              width:12rem;
+              position: relative;
+              
+          }
+          #my-image{
+              height: 12rem;
+              width: 12rem;
+              margin: auto;
+              margin-top: -18vh;
+              margin-left: 85vh;
+          }
+          #my-image img{
+              height: 100%;
+              width: 100%;
+              border-radius: 50%;
+              border-style: solid white;
+             border
+          }
+          #pd{
+              height:100px;
+            width: 100vw;
+            }
+            #para{
+                margin-left: 250px;
+                margin-right: 250px;
+                font-size: large;
+                font-style: italic;
+                margin-top: 15px;
+            }
+            section{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+.section-heading span{
+    font-size: 40px;
+    color: 	#4267B2;
+    display: inline-block;
+    padding-top: 10px;
+    
+    margin-left: 500px;
+}
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 50%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.dsa {width: 75%; background-color: #e5e510;}
+. . .
+
+/* Fifth section */
+
+.column-2a {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  padding-bottom:60px;
+  height:450px;
+  margin:30px;
+  margin-right:30px;
+  margin-bottom: 40px;
+  background-color:white;
+}
+.heading{
+    margin-left: 230px;
+    color: white;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+#haiza{
+    background-image: url(eddd.jpg);
+    height: 400px;
+    width: 800px;
+    margin-left: 160px;
+    
+}
+.subheading{
+    color: beige;
+    margin-left: 300px;
+    font-style: italic;
+    font-weight: 100;
+}
+.fek{
+    color: #04AA6D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: medium;
+    margin-left: 30%;
+}
+.feku{
+    color: #f44336;
+    font-style: oblique;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30%;
+}
